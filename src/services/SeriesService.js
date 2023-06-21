@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const SERIES_BASE_REST_API_URL = 'http://localhost:8081/api/v1/series';
+const SERIES_BASE_REST_API_URL = 'https://spiffy-pizzas-production.up.railway.app/api/v1/series';
 
 class SeriesService{
 

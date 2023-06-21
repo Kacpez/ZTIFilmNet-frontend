@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const SP_BASE_REST_API_URL = 'http://localhost:8081/api/v1/streaming_platforms';
+const SP_BASE_REST_API_URL = 'https://spiffy-pizzas-production.up.railway.app/api/v1/streaming_platforms';
 
 class SPService{
 

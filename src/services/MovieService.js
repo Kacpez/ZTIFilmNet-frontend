@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const MOVIE_BASE_REST_API_URL = 'http://localhost:8081/api/v1/movies';
+const MOVIE_BASE_REST_API_URL = 'https://spiffy-pizzas-production.up.railway.app/api/v1/movies';
 
 class MovieService{
 
