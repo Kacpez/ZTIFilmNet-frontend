@@ -18,7 +18,7 @@ class Register extends Component {
     }
 
     registerUser(username, password) {
-        fetch('http://spiffy-pizzas-production.up.railway.app/users', {
+        fetch('https://spiffy-pizzas-production.up.railway.app/users', {
                     method: 'POST',
                     headers: {
                         'Accept': 'application/json',
