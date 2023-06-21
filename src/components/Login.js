@@ -21,7 +21,7 @@ class Login extends Component {
     }
 
     loginUser(username, password) {
-        fetch('http://localhost:8081/login', {
+        fetch('http://spiffy-pizzas-production.up.railway.app/login', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
